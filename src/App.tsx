@@ -4,6 +4,7 @@ import { theme } from "./config/theme";
 import { Header } from "./components/header";
 import { ListItems } from "./components/list-items";
 import { useContextHook } from './context/hook';
+import { Footer } from "./components/footer";
 
 export const App = () => {
 
@@ -19,6 +20,9 @@ export const App = () => {
         <Container>
           <ListItems />
         </Container>
+        <Footer />
+
+
       </>
     </ThemeProvider>
   )

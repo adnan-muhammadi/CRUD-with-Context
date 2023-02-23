@@ -8,6 +8,7 @@ export const ListItems = () => {
     const { state, createNewItem } = useContextHook()
 
     return (
+        <>
         <Styles.Container>
             <Button onClick={createNewItem}>Create new person</Button>
             {
@@ -16,5 +17,6 @@ export const ListItems = () => {
                 ))
             }
         </Styles.Container>
+        </>
     )
 }
