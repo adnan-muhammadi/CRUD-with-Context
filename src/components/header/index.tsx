@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <Styles.Container>
             <Container>
-                <h1>My Context App</h1>
+                <h1>Context App By Muhammad Adnan</h1>
                 <ToggleTheme />
             </Container>
         </Styles.Container>
